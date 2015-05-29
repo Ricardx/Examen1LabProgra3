@@ -8,7 +8,7 @@ Jugador::Jugador(SDL_Renderer *renderer,list<Personaje*>*personajes)
     textura = IMG_LoadTexture(renderer, "run.png");
     SDL_QueryTexture(textura, NULL, NULL, &w, &h);
     rect_textura.x = 0;
-    rect_textura.y = 100;
+    rect_textura.y = 150;
     rect_textura.w = w;
     rect_textura.h = h;
 
